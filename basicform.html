@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <style>
+        table{
+            width:500px;
+            height:200px;
+            margin: auto;
+            text-align: center;
+            background-color: aqua;
+        }
+        button{
+            width:90px;
+            height:50px;
+            font-size: 20px;
+        }
+        input{
+            width:200px
+        }
+        label{
+            font-size: 20px;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+      <form action="success.html" method="post">
+        <table border="1">
+        <caption style="font-size: 25px;">SignIn</caption>
+        <tr>
+            <td>
+        <label>EMAIL</label></td>
+        <td><input type="email" name="email" value="" required/></td>
+        </tr>
+        <br>
+        <tr>
+            <td>
+        <label>PASSWORD</label></td>
+        <td><input type="password" name="pwd" value="" required/></td>
+        </tr>
+        <br>
+        <tr>
+            <td colspan="2">
+        <button>SignIn</button></td></tr>
+        </table>
+    </form>
+</body>
+</html>

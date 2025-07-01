@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bhuvaneswari S | Portfolio</title>
+  <style>
+   
+    body {
+      font-family: Arial, sans-serif;
+      background-image: url(portfolio.webp);
+      color: black;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 30px 50px;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .logo span {
+      color: #0000ff;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+    }
+
+    .main-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 50px;
+    }
+
+    .text-section {
+      color: white;
+    }
+
+    .text-section h3 {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+
+    .text-section h1 {
+      font-size: 40px;
+      font-weight: bold;
+      margin-bottom: 15px;
+    }
+
+    .text-section h4 {
+      font-size: 18px;
+      color: white;
+    }
+
+    .text-section h4 span {
+      font-weight: bold;
+      color: white;
+    }
+
+    .image-section {
+      text-align: center;
+    }
+
+    .image-section img {
+      width: 250px;
+      height: 250px;
+      border-radius: 50%;
+      border: 5px solid white;
+      object-fit: cover;
+    }
+
+    @media (max-width: 768px) {
+      .main-content {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .text-section, .image-section {
+        padding: 20px;
+      }
+
+      nav {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">PORT<span>FOLIO</span></div>
+    <nav>
+      <a href="#">HOME</a>
+      <a href="#">ABOUT</a>
+      <a href="#">PROJECT</a>
+      <a href="#">CONTACT</a>
+    </nav>
+  </header>
+
+  <section class="main-content">
+    <div class="text-section">
+      <h3>HI MY NAME IS</h3>
+      <h1>BHUVANESWARI S</h1>
+      <h4>I’m a <span>FULLSTACK DEVELOPER</span></h4>
+    </div>
+    <div class="image-section">
+      <img src="bhuvipic.jpg" alt="Bhuvaneswari S">
+    </div>
+  </section>
+
+</body>
+</html>

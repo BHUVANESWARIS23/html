@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <style>
+   body{
+    font-family: Arial, sans-serif;
+    background-image: url(portfolio.webp);
+    display: flex;
+    margin: 0;
+    padding: 0;
+    height: 100vh ;
+    justify-content: center;
+    text-align: center;
+    color: aliceblue;
+   }
+   .contact-form{
+    border: 2px solid black;
+    padding: 35px;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: blanchedalmond;
+   }
+   .contact-form,h2{
+    text-align: center;
+    margin-bottom: 30px;
+   }
+   .form-group{
+    margin-bottom: 25px;
+   }
+   label{
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bolder;
+      text-align: left;
+   }
+   textarea,input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+   }
+  .sub{
+    width: 100%;
+    padding: 12px;
+    background-color:black;
+    border: 2px solid black;
+    color: bisque;
+    font-size: 16px;
+    font-family: 'Times New Roman';
+    border-radius: 15px;
+  }
+  .sub:hover{
+    background-color: aqua;
+    transition: 0.5s;
+  }
+    </style>
+</head>
+<body>
+    <form class="contact-form" method="post" action="success.html">
+    <h2>CONTACT ME</h2>
+    <div class="form-group">
+    <label>NAME:</label>
+    <input type="text" name="name" value="" required\><br><br></div>
+   <div class="form-group">
+    <label>EMAIL:</label>
+    <input type="email" name="email" value="" required\>
+    <br><br></div>
+   <div class="form-group">
+    <label>SUBJECT:</label>
+    <input type="text" name="subject" value="" required\>
+   <br><br></div>
+   <div class="form-group">
+    <label>MESSAGE:</label>
+    <textarea rows="5"></textarea><br><br>
+    <button type="submit" class="sub">Send Message</button><br>
+    </form>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM VALIDATION</title>
+</head>
+<body>
+    <h1>FORM VALIDATION</h1>
+    <form>
+        <label> FIRST NAME:</label><br>
+        <input type="text"required><br>
+        <label>AGE:</label><br>
+        <input type="number"><br>
+        <label>EMAIL:</label><br>
+        <input type="email"><br>
+        <label>URL:</label><br>
+        <input type="url"><br>
+       <label>PASSWORD:</label><br>
+        <input type="password"pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"> 
+        <button>Submit</button>
+    </form>
+</body>
+</html>

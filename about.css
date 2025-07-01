@@ -1,0 +1,47 @@
+.about{
+    height: 100vh;
+    width: 100%;
+    background-image: url(portfolio.webp);
+    background-size: cover;
+    background-position: center; 
+}
+.main{
+    width: 1000px;
+    display: flex;
+    margin: auto 0px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+}
+img{
+    padding: 10px;
+    border-radius: 70%;
+    margin-left: 25%;
+    margin-top: 15%;
+}
+.about-text{
+    margin-top: 15%;
+    font-size: bold;
+    text-transform: capitalize;
+    text-align: left;
+}
+.about-text h2{
+    font-family: 'Times New Roman';
+    color: black;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-size: bolder;
+}
+.about-text h4{
+    font-family: sans-serif;
+    margin: 10px;
+    color: black;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-size: bolder;
+}
+.about-text p{
+    font-family: arial;
+    color: ivory;
+    letter-spacing: 1px;
+}
